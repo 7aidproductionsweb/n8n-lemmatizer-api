@@ -1,4 +1,10 @@
+# requirements.txt (version corrigée)
 fastapi
 uvicorn
 spacy
+
+# On spécifie des versions pré-compilées pour éviter les erreurs de build
+blis==0.7.11
+
+# Le modèle spaCy reste inchangé
 https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.7.0/fr_core_news_sm-3.7.0.tar.gz#egg=fr_core_news_sm
